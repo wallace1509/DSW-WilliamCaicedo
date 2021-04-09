@@ -1,17 +1,24 @@
 body{
-    padding-left: 11em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(255, 115, 0);
-    background-color: rgb(139, 237, 100);}
+    color: rgb(17, 16, 15);
+    background-color: rgb(233, 238, 240);}
     * {
     margin: 0%;
     padding: 0%;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-   header {
-                width: 100%;
- }
+h1 {
+    text-align: center;
+    }
+      header {
+       background-color: rgba(140, 131, 224, 0.932);
+       padding: 20px;
+       width: 100%;
+        }
             nav {
-                margin: 20px auto;
+                margin: 30px auto;
                 width: 90%;
                 max-width: 1000px;
             }
@@ -82,4 +89,35 @@ body{
             }
             nav ul li a .quinto{
                 background: #37a4d9;
+            }
+            section{
+                background-color: rgba(140, 131, 224, 0.932);
+                padding: 20px;
+                margin: 20px auto;
+                font-family: 'Courier New', Courier, monospace;
+                margin-right: 1.5%;
+                float: left;
+            }
+            aside{
+                background-color: rgb(153, 153, 184);
+                font-family: 'Courier New', Courier, monospace;
+                padding: 20px;
+                font-weight: bold;
+                display: inline-block;
+                list-style: none;
+             }
+            footer{
+                background-color: #d6220acc;
+                color: white;
+                padding: 20px;
+                margin-inline: 1.5%;
+            }
+            .contenedor{
+                display: grid;
+                grid-template-columns: 70% 30%;
+            }
+            article{
+                padding: 20px;
+                background: #fff;
+                margin-bottom: 20px;
             }
