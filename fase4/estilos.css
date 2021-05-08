@@ -1,0 +1,123 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(17, 16, 15);
+    background-color: rgb(233, 238, 240);}
+    * {
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    }
+      header {
+       background-color: rgba(140, 131, 224, 0.932);
+       padding: 20px;
+       width: 100%;
+        }
+            nav {
+                margin: 30px auto;
+                width: 90%;
+                max-width: 1000px;
+            }
+            nav ul {
+                list-style:none;
+            }
+            nav > ul {
+              display: table;
+              overflow: hidden;
+              width: 100%;
+              background: rgb(47, 17, 179);  
+              position:relative;
+            }
+            nav > ul li {
+                display: table-cell;
+            }
+            /*sub-menu*/
+            nav > ul > li:hover > ul {
+                display: table-cell;
+            }
+            nav > ul > li > ul {
+                display:none;
+            }
+            nav > ul li a{
+                color: blanchedalmond;
+                display: block;
+                line-height: 20px;
+                padding: 20px;
+                position:relative;
+                text-align:center;
+                text-decoration:none;
+                -webkit-transition: all .3s ease;
+                -moz-transition: all .3s ease;
+                -o-transition: all .3s ease;
+                transition: all .3s ease;
+            }
+            nav >ul > li > ul > li a:hover {
+            background:#5da5a2;
+            }
+            nav > ul > li > a span {
+                background: #174459;
+                display:block;
+                height: 100%;
+                width: 100%;
+                left:0;
+                position: absolute;
+                top: -55px;
+            }
+            nav > ul >li > a span .icon {
+                display: block;
+                line-height: 60px;
+            }
+            nav > ul > li >a:hover > span {
+                top:0;
+            }
+            /*colores*/
+            nav ul li a .primero{
+                background: #0e5061;
+            }
+            nav ul li a .segundo{
+                background: #5da5a2;
+            }
+            nav ul li a .tercero{
+                background: #f25724;
+            }
+            nav ul li a .cuarto{
+                background: #174459;
+            }
+            nav ul li a .quinto{
+                background: #37a4d9;
+            }
+            section{
+                background-color: rgba(140, 131, 224, 0.932);
+                padding: 20px;
+                margin: 20px auto;
+                font-family: 'Courier New', Courier, monospace;
+                margin-right: 1.5%;
+                float: left;
+            }
+            aside{
+                background-color: rgb(153, 153, 184);
+                font-family: 'Courier New', Courier, monospace;
+                padding: 20px;
+                font-weight: bold;
+                display: inline-block;
+                list-style: none;
+             }
+            footer{
+                background-color: #d6220acc;
+                color: white;
+                padding: 20px;
+                margin-inline: 1.5%;
+            }
+            .contenedor{
+                display: grid;
+                grid-template-columns: 70% 30%;
+            }
+            article{
+                padding: 20px;
+                background: #fff;
+                margin-bottom: 20px;
+            }
